@@ -12,5 +12,5 @@ class Comment(models.Model):
         verbose_name = 'Comment'
         verbose_name_plural = 'Comments'
     
-    def __str__(self):o
+    def __str__(self):
         return f"Comment by {self.author.username} on {self.post.description} post"
